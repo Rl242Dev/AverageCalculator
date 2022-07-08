@@ -1,240 +1,30 @@
-print('Bienvenue')
-print('Est-ce que toute vos notes sont coefficiens 1 ?')
-print('''
-[1] : Oui
-[2] : Non
-''')
-MenuChoose = input('Choix : ')
-if MenuChoose == '1':
-    print('Calcul d\'une seule matière')
-    print('Mininum 3 Note')
-    print('Maximum 20 Note')
-    TotalNote = input('Nombre de note : ')
-    if TotalNote in ('1', '2', '3'):
-        print('Réponse Invalide')
-    if TotalNote == '4':
-        UNote = int(input('Première Note : '))
-        DNote = int(input('Première Note : '))
-        TNote = int(input('Première Note : '))
-        QNote = int(input('Première Note : '))
-        CalculOne = UNote + DNote + TNote + QNote
-        print(UNote,'+', DNote,'+', TNote,'+', QNote, '=', CalculOne)
-        CalculTwo = (CalculOne / 4)
-        print('Moyenne : ',CalculTwo)
-    if TotalNote == '5':
-        UNote = int(input('Première Note : '))
-        DNote = int(input('Première Note : '))
-        TNote = int(input('Première Note : '))
-        QNote = int(input('Première Note : '))
-        CNote = int(input('Cinquième Note : '))
-        CalculOne = UNote + DNote + TNote + QNote + CNote
-        CalculTwo = (CalculOne / 5)
-        print('Moyenne : ',CalculTwo)
-    if TotalNote == '6':
-        UNote = int(input('Première Note : '))
-        DNote = int(input('Première Note : '))
-        TNote = int(input('Première Note : '))
-        QNote = int(input('Première Note : '))
-        CNote = int(input('Cinquième Note : '))
-        SNote = int(input('Sixième Note : '))
-        CalculOne = UNote + DNote + TNote + QNote + CNote + SNote
-        CalculTwo = (CalculOne / 6)
-        print('Moyenne : ',CalculTwo)
-    if TotalNote == '7':
-        UNote = int(input('Première Note : '))
-        DNote = int(input('Première Note : '))
-        TNote = int(input('Première Note : '))
-        QNote = int(input('Première Note : '))
-        CNote = int(input('Cinquième Note : '))
-        SNote = int(input('Sixième Note : '))
-        SENote = int(input('Septième Note : '))
-        CalculOne = UNote + DNote + TNote + QNote + CNote + SNote + SENote
-        CalculTwo = (CalculOne / 7)
-        print('Moyenne : ',CalculTwo)
-    if TotalNote == '8':
-        UNote = int(input('Première Note : '))
-        DNote = int(input('Première Note : '))
-        TNote = int(input('Première Note : '))
-        QNote = int(input('Première Note : '))
-        CNote = int(input('Cinquième Note : '))
-        SNote = int(input('Sixième Note : '))
-        SENote = int(input('Septième Note : '))
-        HNote = int(input('Huitième Note : '))
-        CalculOne = UNote + DNote + TNote + QNote + CNote + SNote + SENote + HNote
-        CalculTwo = (CalculOne / 8)
-        print('Moyenne : ',CalculTwo)
-    if TotalNote == '9':
-        UNote = int(input('Première Note : '))
-        DNote = int(input('Première Note : '))
-        TNote = int(input('Première Note : '))
-        QNote = int(input('Première Note : '))
-        CNote = int(input('Cinquième Note : '))
-        SNote = int(input('Sixième Note : '))
-        SENote = int(input('Septième Note : '))
-        HNote = int(input('Huitième Note : '))
-        NNote = int(input('Neuvième Note : '))
-        CalculOne = UNote + DNote + TNote + QNote + CNote + SNote + SENote + HNote + NNote
-        CalculTwo = (CalculOne / 9)
-        print('Moyenne : ',CalculTwo)
-    if TotalNote == '10':
-        UNote = int(input('Première Note : '))
-        DNote = int(input('Première Note : '))
-        TNote = int(input('Première Note : '))
-        QNote = int(input('Première Note : '))
-        CNote = int(input('Cinquième Note : '))
-        SNote = int(input('Sixième Note : '))
-        SENote = int(input('Septième Note : '))
-        HNote = int(input('Huitième Note : '))
-        NNote = int(input('Neuvième Note : '))
-        DINote = int(input('Dixième Note : '))
-        CalculOne = UNote + DNote + TNote + QNote + CNote + SNote + SENote + HNote + NNote + DINote
-        CalculTwo = (CalculOne / 10)
-        print('Moyenne : ',CalculTwo)       
-    if TotalNote == '11':
-        UNote = int(input('Première Note : '))
-        DNote = int(input('Première Note : '))
-        TNote = int(input('Première Note : '))
-        QNote = int(input('Première Note : '))
-        CNote = int(input('Cinquième Note : '))
-        SNote = int(input('Sixième Note : '))
-        SENote = int(input('Septième Note : '))
-        HNote = int(input('Huitième Note : '))
-        NNote = int(input('Neuvième Note : '))
-        DINote = int(input('Dixième Note : '))
-        ONote = int(input('Onzième Note : '))
-        CalculOne = UNote + DNote + TNote + QNote + CNote + SNote + SENote + HNote + NNote + DINote + ONote
-        CalculTwo = (CalculOne / 11)
-        print('Moyenne : ',CalculTwo)      
-    if TotalNote == '12':
-        UNote = int(input('Première Note : '))
-        DNote = int(input('Première Note : '))
-        TNote = int(input('Première Note : '))
-        QNote = int(input('Première Note : '))
-        CNote = int(input('Cinquième Note : '))
-        SNote = int(input('Sixième Note : '))
-        SENote = int(input('Septième Note : '))
-        HNote = int(input('Huitième Note : '))
-        NNote = int(input('Neuvième Note : '))
-        DINote = int(input('Dixième Note : '))
-        ONote = int(input('Onzième Note : '))
-        DONote = int(input('Douzième Note : '))
-        CalculOne = UNote + DNote + TNote + QNote + CNote + SNote + SENote + HNote + NNote + DINote + ONote + DONote
-        CalculTwo = (CalculOne / 12)
-        print('Moyenne : ',CalculTwo)
-    if TotalNote == '13':
-        UNote = int(input('Première Note : '))
-        DNote = int(input('Première Note : '))
-        TNote = int(input('Première Note : '))
-        QNote = int(input('Première Note : '))
-        CNote = int(input('Cinquième Note : '))
-        SNote = int(input('Sixième Note : '))
-        SENote = int(input('Septième Note : '))
-        HNote = int(input('Huitième Note : '))
-        NNote = int(input('Neuvième Note : '))
-        DINote = int(input('Dixième Note : '))
-        ONote = int(input('Onzième Note : '))
-        DONote = int(input('Douzième Note : '))
-        TENote = int(input('Treisième Note : '))
-        CalculOne = UNote + DNote + TNote + QNote + CNote + SNote + SENote + HNote + NNote + DINote + ONote + DONote + TENote
-        CalculTwo = (CalculOne / 13)
-        print('Moyenne : ',CalculTwo)
-    if TotalNote == '14':
-        UNote = int(input('Première Note : '))
-        DNote = int(input('Première Note : '))
-        TNote = int(input('Première Note : '))
-        QNote = int(input('Première Note : '))
-        CNote = int(input('Cinquième Note : '))
-        SNote = int(input('Sixième Note : '))
-        SENote = int(input('Septième Note : '))
-        HNote = int(input('Huitième Note : '))
-        NNote = int(input('Neuvième Note : '))
-        DINote = int(input('Dixième Note : '))
-        ONote = int(input('Onzième Note : '))
-        DONote = int(input('Douzième Note : '))
-        TENote = int(input('Treisième Note : '))
-        QUNote = int(input('Quatorzième Note : '))
-        CalculOne = UNote + DNote + TNote + QNote + CNote + SNote + SENote + HNote + NNote + DINote + ONote + DONote + TENote + QUNote
-        CalculTwo = (CalculOne / 14)
-        print('Moyenne : ',CalculTwo)
-    if TotalNote == '15':
-        UNote = int(input('Première Note : '))
-        DNote = int(input('Première Note : '))
-        TNote = int(input('Première Note : '))
-        QNote = int(input('Première Note : '))
-        CNote = int(input('Cinquième Note : '))
-        SNote = int(input('Sixième Note : '))
-        SENote = int(input('Septième Note : '))
-        HNote = int(input('Huitième Note : '))
-        NNote = int(input('Neuvième Note : '))
-        DINote = int(input('Dixième Note : '))
-        ONote = int(input('Onzième Note : '))
-        DONote = int(input('Douzième Note : '))
-        TENote = int(input('Treisième Note : '))
-        QUNote = int(input('Quatorzième Note : '))
-        QUNNote = int(input('Qunzième Note : '))
-        CalculOne = UNote + DNote + TNote + QNote + CNote + SNote + SENote + HNote + NNote + DINote + ONote + DONote + TENote + QUNote + QUNNote
-        CalculTwo = (CalculOne / 15)
-        print('Moyenne : ',CalculTwo)
-    if TotalNote == '16':
-        UNote = int(input('Première Note : '))
-        DNote = int(input('Première Note : '))
-        TNote = int(input('Première Note : '))
-        QNote = int(input('Première Note : '))
-        CNote = int(input('Cinquième Note : '))
-        SNote = int(input('Sixième Note : '))
-        SENote = int(input('Septième Note : '))
-        HNote = int(input('Huitième Note : '))
-        NNote = int(input('Neuvième Note : '))
-        DINote = int(input('Dixième Note : '))
-        ONote = int(input('Onzième Note : '))
-        DONote = int(input('Douzième Note : '))
-        TENote = int(input('Treisième Note : '))
-        QUNote = int(input('Quatorzième Note : '))
-        QUNNote = int(input('Qunzième Note : '))
-        SEZNote = int(input('Sexième Note : '))
-        CalculOne = UNote + DNote + TNote + QNote + CNote + SNote + SENote + HNote + NNote + DINote + ONote + DONote + TENote + QUNote + QUNNote + SEZNote
-        CalculTwo = (CalculOne / 16)
-        print('Moyenne : ',CalculTwo)
-    if TotalNote == '17':
-        UNote = int(input('Première Note : '))
-        DNote = int(input('Première Note : '))
-        TNote = int(input('Première Note : '))
-        QNote = int(input('Première Note : '))
-        CNote = int(input('Cinquième Note : '))
-        SNote = int(input('Sixième Note : '))
-        SENote = int(input('Septième Note : '))
-        HNote = int(input('Huitième Note : '))
-        NNote = int(input('Neuvième Note : '))
-        DINote = int(input('Dixième Note : '))
-        ONote = int(input('Onzième Note : '))
-        DONote = int(input('Douzième Note : '))
-        TENote = int(input('Treisième Note : '))
-        QUNote = int(input('Quatorzième Note : '))
-        QUNNote = int(input('Qunzième Note : '))
-        SEZNote = int(input('Sexième Note : '))
-        DINote = int(input('Dix Septième Note : '))
-        CalculOne = UNote + DNote + TNote + QNote + CNote + SNote + SENote + HNote + NNote + DINote + ONote + DONote + TENote + QUNote + QUNNote + SEZNote + DINote
-        CalculTwo = (CalculOne / 17)
-        print('Moyenne : ',CalculTwo)
-    if TotalNote == '18':
-        UNote = int(input('Première Note : '))
-        DNote = int(input('Première Note : '))
-        TNote = int(input('Première Note : '))
-        QNote = int(input('Première Note : '))
-        CNote = int(input('Cinquième Note : '))
-        SNote = int(input('Sixième Note : '))
-        SENote = int(input('Septième Note : '))
-        HNote = int(input('Huitième Note : '))
-        NNote = int(input('Neuvième Note : '))
-        DINote = int(input('Dixième Note : '))
-        ONote = int(input('Onzième Note : '))
-        DONote = int(input('Douzième Note : '))
-        TENote = int(input('Treisième Note : '))
-        QUNote = int(input('Quatorzième Note : '))
-        QUNNote = int(input('Qunzième Note : '))
-        SEZNote = int(input('Sexième Note : '))
-        DINote = int(input('Dix Septième Note : '))
-        CalculOne = UNote + DNote + TNote + QNote + CNote + SNote + SENote + HNote + NNote + DINote + ONote + DONote + TENote + QUNote + QUNNote + SEZNote + DINote
-        CalculTwo = (CalculOne / 18)
-        print('Moyenne : ',CalculTwo)  
-  
+from time import sleep
+
+NumberGrade = ['First', 'Seconde','Third', 'Fourth', 'Fifth', 'Sixth', 'Seventh', 'Eighth', 'Ninth', 'Tenth', 'Eleventh', 'Twelfth', 'Thirteenth', 'Fourteenth', 'Fifteenth', 'Sixteenth', 'Seventeenth', 'Eighteenth', 'Nineteenth', 'Twentieth'] # Max number of Grade
+
+print('Hello')
+print('In this Average Calculator we are assuming every grade (up to 20 in a subject) are all coefficient 1 which mean they only count for 1')
+
+NumberOfGradeInput = int(input('Number of grade: '))
+if NumberOfGradeInput > 20:
+    print('Error, Max Input 20')
+if NumberOfGradeInput < 2:
+    print('Error, Min Input 2')
+else:
+    y = 0
+    x = 0
+    GradeList = []
+    while True:
+        if x == NumberOfGradeInput:
+            TotalGrade = sum(GradeList)
+            TotalAverage = TotalGrade / len(GradeList)
+            print('You have an average of :', TotalAverage)
+            break
+        Grade = int(input(NumberGrade[x]+': '))
+        if Grade > 20:
+            print('Error, Max Input 20')
+            quit()
+        else:
+            GradeList.append(Grade)
+            x = x + 1
+            sleep(0.25)
