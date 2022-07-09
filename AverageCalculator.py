@@ -11,7 +11,6 @@ if NumberOfGradeInput > 20:
 if NumberOfGradeInput < 2:
     print('Error, Min Input 2')
 else:
-    y = 0
     x = 0
     GradeList = []
     while True:
