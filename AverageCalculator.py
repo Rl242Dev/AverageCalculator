@@ -23,7 +23,7 @@ else:
             print('You have an average of :', TotalAverage)
             while len(PlotNumberGrade) != len(GradeList):
                 PlotNumberGrade = np.delete(PlotNumberGrade, -1)
-            plt.scatter(PlotNumberGrade, GradeList)
+            plt.plot(PlotNumberGrade, GradeList, marker='X')
             plt.xlabel('X - Number of Grade')
             plt.ylabel('Y - Grade')
             plt.title('Average Graph')
